@@ -983,11 +983,12 @@ export default function App() {
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 bg-white/10 rounded-[28px] flex items-center justify-center border border-white/15 p-1 overflow-hidden group shadow-lg shadow-black/20">
-                <img src="img/Syrian_logo_icon_gold.png"
-                  alt="شعار وزارة الداخلية"
-                  className="w-full h-full object-contain brightness-110 contrast-125 drop-shadow-[0_0_8px_rgba(212,175,55,0.4)] transition-all duration-500 group-hover:scale-110 group-hover:rotate-3"
-                  referrerPolicy="no-referrer"
-                />
+              <img
+  src={`${import.meta.env.BASE_URL}Syrian_logo_icon_gold.png`}
+  alt="شعار وزارة الداخلية"
+  className="w-full h-full object-contain brightness-110 contrast-125 drop-shadow-[0_0_8px_rgba(212,175,55,0.4)] transition-all duration-500 group-hover:scale-110 group-hover:rotate-3"
+  referrerPolicy="no-referrer"
+/>
               </div>
               <div className="text-right">
                 <h1 className="text-xl font-bold text-gold tracking-[0.28em] uppercase leading-none font-display">وزارة الداخلية</h1>

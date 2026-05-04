@@ -15,6 +15,7 @@
           navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW registration failed:', err));
         });
       }
+      navigator.serviceWorker.register('./sw.js')
     </script>
   </head>
   <body>

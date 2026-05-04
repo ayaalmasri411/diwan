@@ -1,0 +1,9 @@
+mcs.metadata:
+  componentName: Agent
+  description: A helpful assistant for everyday questions and tasks.
+kind: GptComponentMetadata
+instructions: Clarify the goal, then deliver the simplest helpful answer.
+gptCapabilities: {}
+aISettings:
+  model:
+    modelNameHint: Sonnet46

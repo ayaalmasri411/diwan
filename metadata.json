@@ -1,0 +1,6 @@
+{
+  "name": "الديوان العام - القوى البشرية",
+  "description": "نظام الإدخال المركزي والأرشفة الرقمية لوزارة الداخلية - إدارة القوى البشرية",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}

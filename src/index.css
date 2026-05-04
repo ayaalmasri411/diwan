@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+
+@theme {
+  --font-sans: "Cairo", sans-serif;
+  --font-display: "Cairo", sans-serif;
+  --color-royal: #0d2e23;
+  --color-gold: #a68d6d;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-[#f4f6f4] text-right;
+    direction: rtl;
+  }
+  
+  h1, h2, h3, .font-display {
+    @apply font-display;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
